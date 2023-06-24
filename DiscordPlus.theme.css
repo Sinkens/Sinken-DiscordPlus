@@ -1,6 +1,6 @@
 /**
  * @name Discord+
- * @author PlusInsta
+ * @author PlusInsta, Edited By Sinken (Due To Using Vencord Rather Than BD)
  * @authorId 309931975102300160
  * @authorLink https://plusinsta.xyz
  * @version 3.2.1
@@ -18,10 +18,10 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/822879947096981505/1122239018734714890/Sky1012Test.png);
 
 /* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 320;
+  --dplus-accent-color-hue: 240;
   --dplus-accent-color-saturation: 60%;
   --dplus-accent-color-lightness: 31%;
 
@@ -60,16 +60,16 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'Poppins';
-  --dplus-font-body: 'Roboto';
-  --dplus-font-header: 'Righteous';
+  --dplus-font-ui: 'Whitney';
+  --dplus-font-body: 'Whitney';
+  --dplus-font-header: 'Whitney';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
   --dplus-radius-ui: 10px;
-  --dplus-radius-avatar: 20%;
-  --dplus-radius-server: 20%;
+  --dplus-radius-avatar: 50%;
+  --dplus-radius-server: 50%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
